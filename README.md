@@ -1,1 +1,2 @@
 # Increment-Counter
+A program to see how hard it is to get an error while using an unsynchronized counter with several threads.  The program runs one or more threads.  Each thread increments the counter a specified number of times.  After all the threads have completed, the value of the counter is printed out so it can be compared to the correct value.  The user specifies the number of threads and the number of times each thread increments the counter.  (To see an error, the number of increments probably has to be pretty large.  Try 1000000.)
